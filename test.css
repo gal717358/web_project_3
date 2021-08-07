@@ -56,7 +56,7 @@ html {
 
 .lead {
   max-width: 984px;
-  margin: auto;
+  margin:0 auto;
 }
 .lead__title {
   width: 720px;
@@ -65,7 +65,8 @@ html {
   font-weight: 900;
   font-size: 96px;
   line-height: 100px;
-  margin: auto;
+  margin:0 auto;
+  padding: 0px;
   text-align: center;
   color: #ffffff;
 }
