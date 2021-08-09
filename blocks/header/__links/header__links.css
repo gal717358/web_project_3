@@ -1,4 +1,4 @@
-.header__links{
+.header__links {
     margin: 0px;
     padding: 0px;
     display: flex;
@@ -6,10 +6,11 @@
     font-weight: normal;
     font-size: 24px;
     line-height: 28px;
-    }
-    @media screen and (max-width:568px) {
-        .header__links{
+}
+
+@media screen and (max-width: 568px) {
+    .header__links {
         font-size: 18px;
-        line-height: 20px;  
-        }
+        line-height: 20px;
     }
+}

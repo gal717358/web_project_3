@@ -7,16 +7,14 @@
     letter-spacing: 0.15em;
     text-transform: uppercase;
     margin: 8px 0 0;
+}
+@media screen and (max-width: 860px) {
+    .lead__caption {
+        margin: 8px 0 0 24px;
     }
-    @media screen and (max-width:860px) {
-
-        .lead__caption {
-            margin: 8px 0 0 24px;
-        }
+}
+@media screen and (max-width: 568px) {
+    .lead__caption {
+        margin: 8px 0 0 16px;
     }
-    @media screen and (max-width:568px) {
-
-        .lead__caption {
-            margin: 8px 0 0 16px;
-        }
-    }
+}

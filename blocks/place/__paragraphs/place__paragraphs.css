@@ -1,13 +1,11 @@
 .place__paragraphs {
     grid-column: 2 / 3;
     grid-row: 2;
+}
+@media screen and (max-width: 568px) {
+    .place__paragraphs {
+        padding: 0 16px;
+        grid-row: 4;
+        grid-column: 1;
     }
-    @media screen and (max-width:568px) {
-
-        .place__paragraphs {
-            padding: 0 16px;
-                grid-row: 4;
-                grid-column: 1;
-            
-        }
-    }
+}

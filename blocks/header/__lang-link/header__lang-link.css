@@ -1,8 +1,8 @@
-.header__lang-link{
+.header__lang-link {
     margin-left: 18px;
     color: white;
     text-decoration: none;
-    }
-    .header__lang-link:hover{
-        opacity: 0.8;
-    }
+}
+.header__lang-link:hover {
+    opacity: 0.8;
+}

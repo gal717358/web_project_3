@@ -5,10 +5,9 @@
     max-width: 460px;
     max-height: 460px;
     object-fit: cover;
+}
+@media screen and (max-width: 568px) {
+    .place__image {
+        grid-row: 3;
     }
-    @media screen and (max-width:568px) {
-
-        .place__image {
-            grid-row: 3;
-        }
-    }
+}
