@@ -10,7 +10,7 @@
     background-position: center;
     object-fit: cover;
     text-align: center;
-    cursor:url('/images/Imported\ Layers\ Copy\ 4\ black.png');
+    cursor:url('/images/Imported-Layers.png');
     }
     .cover__link::after{
         content: "";
@@ -41,7 +41,7 @@
                 margin: 89px 0 88px;
             }
         }
-        @media screen and (max-width:320px) {
+        @media screen and (max-width:568px) {
 
             .cover__link{
                 min-height: 200px;
