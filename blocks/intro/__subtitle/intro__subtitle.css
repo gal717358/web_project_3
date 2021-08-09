@@ -5,15 +5,17 @@
     font-size: 24px;
     line-height: 1.42;
     margin: 0;
-}
-@media screen and (max-width: 860px) {
+  }
+  
+  @media screen and (max-width: 860px) {
     .intro__subtitle {
-        max-width: 720px;
+      max-width: 720px;
     }
-}
-@media screen and (max-width: 568px) {
+  }
+  
+  @media screen and (max-width: 568px) {
     .intro__subtitle {
-        max-width: 288px;
-        line-height: 1.25;
+      line-height: 1.25;
     }
-}
+  }
+  
